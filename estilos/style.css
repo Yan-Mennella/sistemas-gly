@@ -11,11 +11,14 @@ header {
     width: 100%;
     height: 50px;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Não sei para que serve (peguei do chat gpt) */
 }
 
 header > h1 {
-    margin: 8px;
-    padding: 3px;
+    margin: 10px;
+    padding-left: 15px;
 }
 
 main {
