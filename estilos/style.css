@@ -18,13 +18,10 @@ header {
 
 header > h1 {
     margin: 10px;
-    padding-left: 15px;
+    padding-left: 8px;
 }
 
 main {
-    margin: 15px;
-}
-
-main > p {
-    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
 }

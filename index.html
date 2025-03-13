@@ -12,10 +12,21 @@
         <h1>Sistema Para Empresas</h1>
     </header>
     <main>
-        <!-- Teste 
-        <h2>Olá, Mundo!</h2>
-        <p>Seja bem vindo</p>
-         -->
+        <form action="cadastro.php" method="POST">
+            <h2>Faça seu cadastro:</h2>
+
+            <label for="inome">Nome:</label>
+            <input type="text" id="inome" name="nome" required><br>
+
+            <label for="iemail">E-mail:</label>
+            <input type="text" id="iemail" name="email" required><br>
+
+            <label for="isenha">Senha:</label>
+            <input type="text" name="isenha" id="senha" required><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
     </main>
 </body>
 </html>
