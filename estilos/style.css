@@ -6,8 +6,10 @@ body {
 }
 
 h1 {
-    margin: 20px auto;
+    margin: 0px;
     padding: 10px   ;
     text-align: center;
     background-color: rgba(203, 130, 35, 0.627);
+    width: 80%;
+    max-width: 600px;
 }
