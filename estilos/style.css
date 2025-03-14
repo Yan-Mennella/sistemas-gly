@@ -31,3 +31,12 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
+#senha {
+    margin-bottom: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+}
