@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: black;
     color: white;
     margin: 0px;
@@ -13,7 +16,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Não sei para que serve (peguei do chat gpt) */
+    z-index: 1000;
 }
 
 header > h1 {
@@ -22,7 +25,9 @@ header > h1 {
 }
 
 main {
-    margin-top: 40px;
+    flex: 1;
+
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -61,4 +66,11 @@ input[type="email"]:focus,
 input[type="password"]:focus {
     border: 2px solid #FF4500;
     background-color: rgba(255, 69, 0, 0.2);
+}
+
+footer {
+    background-color: rgba(203, 130, 35, 0.627);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
